@@ -41,7 +41,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Portfolio-landing-page.git
+git clone https://github.com/Saniya-usman/Portfolio-landing-page.git
 
 # Move into project folder
 cd Portfolio-landing-page

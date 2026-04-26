@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+body {
+  scrollbar-width: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.sparkles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  
+  z-index: 0;
+}
+
+.sparkles::before,
+.sparkles::after {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background-repeat: repeat;
+  animation: moveStars 120s linear infinite;
+}
+
+/* small stars */
+.sparkles::before {
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(#ffffffaa 1.5px, transparent 2px),
+    radial-gradient(#a8d8ff 1px, transparent 2px);
+
+  background-size: 80px 80px, 120px 120px, 160px 160px;
+  opacity: 0.6;
+  animation: moveStars 120s linear infinite, twinkle 3s ease-in-out infinite;
+}
+
+/* bigger glowing stars */
+.sparkles::after {
+  background-image:
+    radial-gradient(white 2px, transparent 4px),
+    radial-gradient(#ffd1dc 2px, transparent 5px);
+
+  background-size: 200px 200px, 300px 300px;
+  opacity: 0.4;
+  filter: blur(0.8px);
+  animation: moveStars 180s linear infinite, twinkle 5s ease-in-out infinite;
+}
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.2;
+    filter: brightness(0.8);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.6);
+  }
+}
+@keyframes moveStars {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-20%, -30%);
+  }
+}
