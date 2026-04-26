@@ -1,16 +1,67 @@
-# React + Vite
+# 🌐 Portfolio Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio landing page built using **React, Vite, HTML, CSS, and JavaScript**.  
+This project showcases my skills, projects, and contact information in a clean UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Responsive design for all devices
+- Smooth UI and modern layout
+- Projects showcase section
+- Skills section
+- Contact section
+- Built using reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📁 Project Structure
+src/
+├── assets/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Portfolio-landing-page.git
+
+# Move into project folder
+cd Portfolio-landing-page
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+📸 Projects Included
+Counter App
+Weather App
+Movie App
+Portfolio Website
+👩‍💻 Author
+
+Saniya Bammanalli
+Frontend Developer | CSE Student
+Email: saniyabammanalli@gmail.com
+
+📌 Note
+
+This project is part of my internship learning journey and will be continuously improved with new features and better UI designs.
