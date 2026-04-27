@@ -1,5 +1,5 @@
 import gihub from '../assets/github.png';
-import linkedin from '../assets/linkedin.png';
+import linkedin from '../assets/linkedIn.png';
 import instagram from '../assets/instagram.png';
 
 const Footer = () => {
