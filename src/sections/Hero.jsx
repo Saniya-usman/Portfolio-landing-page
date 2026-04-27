@@ -27,28 +27,28 @@ useEffect(() => {
   return (
     <section
       id="home"
-      className=" min-h-screen flex items-center justify-center 
+      className=" min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-10
 bg-gradient-to-br from-[#020617] via-[#213054] to-[#1d2a3f] text-white"
     >
       <Navbar/>
       
-      <div className="max-w-7xl p-5 w-full flex flex-col md:flex-row items-center justify-between gap-16">
+      <div className="max-w-7xl p-5 w-full flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
 
         {/* LEFT - TEXT */}
         <div className="text-center md:text-left max-w-2xl">
           
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight 
+          <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight 
 text-white italic
 bg-clip-text text-transparent">
   Hi, I'm Saniya 👋
 </h1>
 
-<div className="mt-4 text-2xl md:text-3xl font-semibold text-blue-300">
+<div className="mt-3 text-lg sm:text-xl md:text-2xl font-semibold text-blue-300">
   {text}
   <span className="animate-pulse">|</span>
 </div>
 
-<p className="mt-4 text-gray-300 text-lg leading-relaxed max-w-xl">
+<p className="mt-4 text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl">
   I am passionate about building modern, responsive, and user-friendly web applications. 
   I enjoy turning ideas into real-world projects using React, Tailwind CSS, and clean UI design.
 </p>
@@ -59,7 +59,7 @@ bg-clip-text text-transparent">
 </p>
 
           {/* BUTTONS */}
-          <div className="flex gap-4 mt-10 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
             
             <a
   href={mycv} target="_blank" rel="noopener noreferrer"
@@ -88,7 +88,7 @@ bg-clip-text text-transparent">
         </div>
 
         {/* RIGHT - IMAGE */}
-       <div className="relative w-80 md:w-[420px]">
+       <div className="relative w-60 sm:w-72 md:w-[420px]">
   
   <div className="absolute w-72 h-72 bg-blue-500/20 blur-3xl rounded-full top-10 left-10"></div>
 
