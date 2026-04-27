@@ -3,6 +3,7 @@ import counterapp from "../assets/counterapp.jpeg";
 import clothingapp from "../assets/VCA.png";
 import movieapp from "../assets/Movieapp.jpeg";
 import weatherapp from "../assets/weatherapp.jpeg";
+import portfolioapp from "../assets/portfolioapp.jpeg";
 const projects = [
   {
     title: "Notes App",
@@ -47,7 +48,7 @@ const projects = [
   {
     title: "Portfolio Website",
     desc: "Personal portfolio to showcase my projects.",
-    img: "https://via.placeholder.com/400x250",
+    img: portfolioapp,
     tech: ["React", "Tailwind"],
     code: "#",
     live: "#"

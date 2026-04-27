@@ -1,3 +1,7 @@
+import gihub from '../assets/github.png';
+import linkedin from '../assets/linkedin.png';
+import instagram from '../assets/instagram.png';
+
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-[#020617] via-[#1b2c52] to-[#0e1f3a] text-gray-400 border-t border-white/10">
@@ -24,21 +28,21 @@ const Footer = () => {
           <a href="https://github.com/Saniya-usman" target="_blank">
             <div className="w-10 h-10 flex items-center justify-center 
             rounded-full bg-white/10 hover:bg-white/20 transition">
-              <img src="/github.png" className="w-5" />
+              <img src={gihub} className="w-5" />
             </div>
           </a>
 
           <a href="https://linkedin.com/in/saniya-bammanalli-ab6b78334/" target="_blank">
             <div className="w-10 h-10 flex items-center justify-center 
             rounded-full bg-white/10 hover:bg-white/20 transition">
-              <img src="/linkedin.png" className="w-5" />
+              <img src={linkedin} className="w-5" />
             </div>
           </a>
 
           <a href="https://instagram.com/sw.eetie5391/" target="_blank">
             <div className="w-10 h-10 flex items-center justify-center 
             rounded-full bg-white/10 hover:bg-white/20 transition">
-              <img src="/instagram.png" className="w-5" />
+              <img src={instagram} className="w-5" />
             </div>
           </a>
 
