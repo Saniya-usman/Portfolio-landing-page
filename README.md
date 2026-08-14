@@ -1,4 +1,4 @@
-# 🌐 Portfolio Landing Page (Task 1 – SCT_WD_1)
+# 🌐 Portfolio Landing Page 
 
 A modern and responsive portfolio landing page built using **React, Vite, HTML, CSS, and JavaScript**.  
 This project showcases my skills, projects, and contact information in a clean UI design.
